@@ -12,11 +12,11 @@ export const ContactForm = () => {
 
      .then(
        (result) => {
-         console.log(result.text);
+       
          alert("Gracias!");
        },
        (error) => {
-         console.log(error.text);
+        
          alert("Error...", error);
        }
      );
