@@ -26,10 +26,11 @@ const ScrollButton = () =>{
   
   window.addEventListener('scroll', toggleVisible);
   
+
+  
   return (
     <Button>
-     <FaCaretSquareUp onClick={scrollToTop} 
-     style={{display: visible ? 'inline' : 'none'}} />
+    <FaCaretSquareUp onClick={scrollToTop}   style={{display: visible ? 'inline' : 'none'}} />
     </Button>
   );
 }
