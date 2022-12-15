@@ -2,13 +2,16 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
+   
   const form = useRef();
-
+  
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm ('mercado123', 'mercado123',
-     form.current, '5CACpfiI-g7LfZNJD')
+   
+    
+  emailjs.sendForm ('mercado123', 'mercado123',form.current, '5CACpfiI-g7LfZNJD')
 
      .then(
        (result) => {
@@ -18,8 +21,11 @@ export const ContactForm = () => {
        (error) => {
         
          alert("Error...", error);
-       }
+     
+        }
+        
      );
+     
  };
    
 
@@ -32,7 +38,7 @@ export const ContactForm = () => {
  
 
   
-    <form ref={form} onSubmit={sendEmail} className="mt-6">
+    <form /*ref={form} onSubmit={sendEmail} */ className="mt-6">
     
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-gray-300 " >
       <div className=" w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-grey-600/40 ring-2 ring-green-600 lg:max-w-xl">
