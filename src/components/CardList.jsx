@@ -20,17 +20,17 @@ const CardList = (props) => {
     const clearCart = () => dispatch({type: TYPES.CLEAR_CART}) 
 
   return (
-<section className='h-screen '>
+<div className="flex flex-col flex-wrap content-center justify-center md:flex-row md:w-12/12  mx-auto  sm:flex-row sm:flex sm:flex-auto">
   
-  <ul className="flex flex-col flex-wrap content-center justify-center mx-auto md:flex-row md:w-4/12">
+  
     {
       
       props.products.map(product=><Card key={product.id} product={product} addToCart={addToCart}/> )
   
       
     }
-  </ul>
-</section>
+  
+</div>
   )
 }
 
