@@ -30,6 +30,7 @@ function App() {
       <CardList products={products}/>
       <ContactForm />
       <ScrollButton />
+      <Carrusell />
      
     </div>
   
