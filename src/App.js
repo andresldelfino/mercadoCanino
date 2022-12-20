@@ -1,7 +1,14 @@
+import axios from "axios";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 
 
-function App() {
-  
-}
+const App = () => {
+  return (
+    <>
+     <ShoppingCart />
+    </>
+  );
+};
+
 
 export default App;
