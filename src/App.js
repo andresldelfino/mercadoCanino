@@ -3,11 +3,7 @@ import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 
 
 const App = () => {
-  return (
-    <>
-     <ShoppingCart />
-    </>
-  );
+  return 
 };
 
 
