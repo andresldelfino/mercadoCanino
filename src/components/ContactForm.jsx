@@ -31,8 +31,8 @@ export const ContactForm = () => {
     
  
 
-  
-    <form ref={form} onSubmit={sendEmail} className="mt-6">
+  <div id='contacto'>
+    <form ref={form} onSubmit={sendEmail} className="mt-6" >
     
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-gray-300 " >
       <div className=" w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-grey-600/40 ring-2 ring-green-600 lg:max-w-xl">
@@ -138,6 +138,7 @@ export const ContactForm = () => {
 
      
     </form>
+    </div>
   );
 };
 
