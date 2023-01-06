@@ -5,8 +5,6 @@ import ContactForm from "./components/ContactForm.jsx";
 import ScrollButton from './components/ScrollButton.jsx';
 import CardList from "./components/CardList"
 import IMAGES from "./image/index"
-import Text from './components/Text';
-import Footer from './components/Footer';
 
 const products = [
   {id: 1, name: "Agility Adultos 20 KG", price: 5800, image:IMAGES.img1, alt:"Agility Adultos 20 KG"},
@@ -27,17 +25,18 @@ const products = [
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <CarouselComponent />
       <CardList products={products}/>
-      <Text/>
       <ContactForm />
-      <Footer/>
-      
-      
+      <ScrollButton />
+      <Carrusell />
+     
     </div>
-    
   
+   
+     
+ 
   );
 }
 
