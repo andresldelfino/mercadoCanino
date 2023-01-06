@@ -39,7 +39,7 @@ export const ContactForm = () => {
 
 
   <div id='contacto'>
-    <form ref={form} onSubmit={sendEmail} className="mt-6" >
+    
 
   
     <form /*ref={form} onSubmit={sendEmail} */ className="mt-6">
