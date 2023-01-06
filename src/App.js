@@ -3,6 +3,8 @@ import './App.css';
 import CarouselComponent from "./components/carousel.component.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import ScrollButton from './components/ScrollButton.jsx';
+import Header from "./components/Header";
+import "./index.css";
 import CardList from "./components/CardList"
 import IMAGES from "./image/index"
 import Text from './components/Text';
@@ -27,18 +29,32 @@ const products = [
 
 function App() {
   return (
+
+    <div className="App">
+   
+      <Header/>
+
     <div>
+
       <CarouselComponent />
       <CardList products={products}/>
       <Text/>
       <ContactForm />
+
+      <ScrollButton />
+      
+     
+
       <Footer/>
       
       
+
     </div>
     
   
   );
 }
+
+
 
 export default App;
