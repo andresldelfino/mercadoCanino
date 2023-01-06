@@ -20,8 +20,12 @@ const CardList = (props) => {
     const clearCart = () => dispatch({type: TYPES.CLEAR_CART}) 
 
   return (
+
+<div className="flex flex-col flex-wrap content-center justify-center md:flex-row md:w-10/12  mx-auto  sm:flex-row sm:flex sm:flex-auto">
+=======
 <div id='productos'>
 <div className="flex flex-col flex-wrap content-center justify-center mx-auto md:flex-row md:w-12/12 sm:flex-row sm:flex sm:flex-auto">
+
   
   
     {
