@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-export default function CarouselComponent() {
+export default function CarouselComponent2() {
     return (
         <div class="max-w-md p-1 mx-auto mt-3 bg-gray-200 sm:shadow-md sm::rounded-md sm:bg-gray-100 sm:p-1 md:bg-gray-200">
             <Carousel infiniteLoop useKeyboardArrows autoPlay>
