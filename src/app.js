@@ -27,18 +27,17 @@ const products = [
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <CarouselComponent />
       <CardList products={products}/>
+      <Text/>
       <ContactForm />
-      <ScrollButton />
-      <Carrusell />
-     
+      <Footer/>
+      
+      
     </div>
+    
   
-   
-     
- 
   );
 }
 
