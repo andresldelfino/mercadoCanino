@@ -3,10 +3,13 @@ import './App.css';
 import CarouselComponent from "./components/carousel.component.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import ScrollButton from './components/ScrollButton.jsx';
+import Header from "./components/Header";
+import "./index.css";
 import CardList from "./components/CardList"
 import IMAGES from "./image/index"
 import Text from './components/Text';
 import Footer from './components/Footer';
+import CarouselComponent2 from './components/Carrusell';
 
 const products = [
   {id: 1, name: "Agility Adultos 20 KG", price: 5800, image:IMAGES.img1, alt:"Agility Adultos 20 KG"},
@@ -27,18 +30,21 @@ const products = [
 
 function App() {
   return (
+
     <div>
+      <Header/>
       <CarouselComponent />
       <CardList products={products}/>
       <Text/>
       <ContactForm />
+      <CarouselComponent2 />
       <Footer/>
-      
-      
     </div>
     
   
   );
 }
+
+
 
 export default App;
