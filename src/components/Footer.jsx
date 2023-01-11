@@ -10,6 +10,7 @@ import {
 import { FaFacebookF } from "react-icons/fa";
 import { RxInstagramLogo } from "react-icons/rx";
 import { AiOutlineTwitter } from "react-icons/ai";
+import huella from "../image/huella.png";
 
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
     <Box>
       <img
             style={{ textAlign: "center", marginTop: "-50px", width: "270px" }}
-            src="../image.huella.png"
+            src={huella}
             alt=""
           />
       <Container>
