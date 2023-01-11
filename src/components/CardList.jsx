@@ -24,7 +24,7 @@ const CardList = (props) => {
 
 
 <div id='productos'>
-<div className="flex flex-col flex-wrap content-center justify-center md:flex-row md:w-10/12  mx-auto  sm:flex-row sm:flex sm:flex-auto">
+<div className="flex flex-col flex-wrap content-center justify-center mx-auto md:flex-row md:w-8/12 sm:flex-row sm:flex sm:flex-auto">
 
   
   
