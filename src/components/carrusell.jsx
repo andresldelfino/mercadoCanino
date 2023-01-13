@@ -29,7 +29,7 @@ export default function CarouselComponent2() {
             <img src= {'../img2/img7.png'} alt="integrante/andres" />
             </div>
             <div>
-            <img src= {'../img2/img8.png'} alt="integrante/brandon" />
+            <img src= {'../img2/img8.jpg'} alt="Profe/seba" />
             </div>
 
         </Carousel>
